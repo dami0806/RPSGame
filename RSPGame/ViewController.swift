@@ -45,7 +45,7 @@ class ViewController: UIViewController {
         guard let title = sender.currentTitle else {return}
         //let title = sender.currentTitle!
         print(title)
-        b 
+    
         switch title {
         case "가위":
             myChoice = Rps.scissors
